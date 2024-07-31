@@ -1,0 +1,234 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+  }
+  
+  .brand-logo {
+    height: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-items {
+    margin: 0 15px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .right-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .Subscribe {
+    padding: 5px 10px;
+    background-color: #1f80e0;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  /* Carousel styles */
+  .carousel-container {
+    margin: 20px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slide-content {
+    scroll-snap-align: start;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .movie-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+  }
+  
+  .movie-des {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: 14px;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Video card styles */
+  .video-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .video-card {
+    position: relative;
+  }
+  
+  .video-card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .card-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Movies list styles */
+  .title {
+    margin-left: 20px;
+  }
+  
+  .movies-list {
+    margin: 20px;
+    position: relative;
+  }
+  
+  .pre-btn, .nxt-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pre-btn {
+    left: 0;
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .card {
+    scroll-snap-align: start;
+    margin-right: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .des {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .watchlist-btn {
+    background-color: #1f80e0;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  .last-footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .last-footer-texts {
+    margin-bottom: 20px;
+  }
+  
+  .last-footer-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .last-footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .last-footer-images .dwn {
+    width: 150px;
+    margin: 0 10px;
+  }
+  
